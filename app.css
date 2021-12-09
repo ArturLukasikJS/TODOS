@@ -1,0 +1,92 @@
+body {
+    width: 50%;
+    margin-top: 25px;
+    color: rgba(0, 0, 0, 0.698);
+    margin: auto;
+    font-family: 'Readex Pro', sans-serif;
+    background: linear-gradient( 135deg, #8052ec, #d161ff);
+}
+
+.container {
+    width: 360px;
+    height: 1000px;
+}
+
+#headTitle {
+    font-size: 75px;
+    color: rgba(15, 39, 39, 0.103);
+}
+
+#tekst {
+    border-radius: 10px;
+    width: 300px;
+    height: 46px;
+    border: 1px solid whitesmoke;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+#dodaj {
+    margin-left: 2px;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid whitesmoke;
+    vertical-align: middle;
+    font-size: 30px;
+    background: linear-gradient( 135deg, #fbfbfb, #747474);
+}
+
+#dodaj:hover {
+    background: cadetblue;
+    transition-duration: 1000ms;
+}
+
+.todocon {
+    margin-top: 25px;
+}
+
+.flexbox-container {
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+
+.button-styling {
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 2px;
+    background: linear-gradient( 135deg, #fafafa, #747474);
+}
+
+.button-styling:hover {
+    background: cadetblue;
+    transition-duration: 1000ms;
+}
+
+.check-styling {
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 2px;
+    background: linear-gradient( 135deg, #fafafa, #747474);
+}
+
+.check-styling:hover {
+    background: cadetblue;
+    transition-duration: 1000ms;
+}
+
+.paragraph-styling {
+    border-radius: 10px;
+    width: 350px;
+    background-color: whitesmoke;
+    font-size: 30px;
+}
+
+.con {
+    color: aqua;
+}
